@@ -10,7 +10,7 @@ class EmailAddressParser
   email_addresses = []
   
   def intialize
-    
+    parser = EmailAddressParser.new
   end 
   
   def parse(email_addresses)
