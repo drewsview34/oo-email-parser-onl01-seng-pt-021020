@@ -5,6 +5,8 @@
 
 class EmailParser
   
+  emails
+  
 
   
 end 
