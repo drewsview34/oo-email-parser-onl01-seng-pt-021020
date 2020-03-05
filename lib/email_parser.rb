@@ -9,7 +9,7 @@ class EmailAddressParser
   
   @emails = []
   
-  def parse(parser)
+  def parse
     @emails << parser
   end
   
