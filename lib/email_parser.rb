@@ -14,7 +14,6 @@ class EmailAddressParser
   end 
   
   def parse(email_addresses)
-    parser = EmailAddressParser.new
     email_addresses << parser
   end
   
