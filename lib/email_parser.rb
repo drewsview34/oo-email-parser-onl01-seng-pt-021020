@@ -8,14 +8,13 @@ class EmailAddressParser
   attr_accessor :emails 
   
   def initialize(emails)
-    @emails = emails.split
+    @emails = emails
     
   end
   
   def parse
    emails_array = []
    emails_array << @emails
-   emails_array.uniq
   end
   
 end
