@@ -10,6 +10,7 @@ class EmailAddressParser
   @emails = []
   
   def parse
+    parse_new = EmailAddressParser.new
     @emails << parser
   end
   
