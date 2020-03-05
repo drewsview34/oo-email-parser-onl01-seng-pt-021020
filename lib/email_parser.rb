@@ -10,11 +10,12 @@ class EmailAddressParser
   email_addresses = []
   
   def intialize
-    email_addresses << parser
+    
   end 
   
   def parse(email_addresses)
     parser = EmailAddressParser.new
+    email_addresses << parser
   end
   
 end 
