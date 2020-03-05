@@ -11,6 +11,10 @@ class EmailParser
     @emails = emails
   end
   
-
+  def parse
+   emails_array = []
+   emails_array << @emails
+   emails_array.uniq
+  end
   
-end 
+end
