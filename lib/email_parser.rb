@@ -5,11 +5,11 @@
 
 class EmailAddressParser
   
-  attr_accessible :parser
+  attr_accessor :parser
   
   @emails = []
   
-  def parse
+  def parse(parser)
     @emails << parser
   end
   
