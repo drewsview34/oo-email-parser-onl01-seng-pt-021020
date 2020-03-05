@@ -13,8 +13,8 @@ class EmailAddressParser
     parser = EmailAddressParser.new
   end 
   
-  def parse(email_addresses)
-    @email_addresses << parser
+  def parse
+    @email_addresses << parse
   end
   
 end 
