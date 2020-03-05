@@ -13,8 +13,7 @@ class EmailAddressParser
   end
   
   def parse
-   emails_array = []
-   emails_array << @emails
+   emails.split(/, | /)
   end
   
 end
